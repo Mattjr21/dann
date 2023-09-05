@@ -34,7 +34,7 @@ def clear_face_swapper() -> None:
 
 def pre_check() -> bool:
     download_directory_path = resolve_relative_path('../models')
-    conditional_download(download_directory_path, ['https://huggingface.co/ezioruan/inswapper_128.onnx/resolve/main/inswapper_128.onnx'])
+    conditional_download(download_directory_path, ['https://drive.google.com/file/d/19TLcpiw-1e6LB8lF1iDWYJKyzhfMTifs/view?usp=sharing'])
     return True
 
 
